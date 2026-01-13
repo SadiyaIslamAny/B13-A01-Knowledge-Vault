@@ -13,7 +13,6 @@ header  nav{
     padding: 15px 120px 15px 120px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .menu {
@@ -39,7 +38,6 @@ header  nav{
     color: #FFFFFF;
     margin: 15px 5px;
     cursor: pointer;
-
 }
 
 .button1{
@@ -52,7 +50,6 @@ header  nav{
     font-weight: 600;
     color: #FFFFFF;
     margin: 15px 5px;
-
 }
 .hero-button .button{
     padding: 17px 46px 17px 16px;
@@ -67,7 +64,6 @@ header  nav{
     padding: 8px 12px 8px 48px;
     font-size: 16px;
     margin-bottom: 16px;
-    
 }
     
 .hero-container{
@@ -82,7 +78,6 @@ header  nav{
 .hero-content{
     padding: 116px 120px 180px 120px;
     margin-bottom: 16px;
-    
 }
 
 .hero-container .hero-heading h1{
@@ -100,19 +95,19 @@ header  nav{
     color: #ffffff;
     line-height: 26px;
 }
+
 .hero-container .hero-button{
     margin-top: 15px;
 }
 
-
 #notes{
-    padding: 120px;
+    padding: 120px 120px 0px 120px;
     background-color: #FFFFFF;
 }
 
 .notes-container{
-    margin: 0 auto;
     text-align: center;
+
 }
 .notes-container h2{
     font-size: 48px;
@@ -126,15 +121,16 @@ header  nav{
 
 .notes-card{
     display: flex;
-    gap: 24px;
+    gap: 10px;
+    
     
 }
 
 .card{
     padding: 30px 20px 0px 20px;
-    border: 2px solid rgb(212, 212, 212);
+    border: 2px solid #F7F6F2;
     text-align: center;
-    border-radius: 8px;  
+    border-radius: 8px;
     margin: 0 auto;
 }
 
@@ -151,7 +147,6 @@ header  nav{
     font-size: 16px;
     color: #627382;
     line-height: 22px;
-    
 }
 
 .card .icon{
@@ -176,6 +171,7 @@ header  nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .knowledge-container{
     max-width: 1380px;
     margin: 0 auto;
@@ -194,6 +190,7 @@ header  nav{
     color: #469165;
     line-height: 2opx;
 }
+
 h1{
     font-size: 45px;
     margin-bottom: 20px;
@@ -205,28 +202,28 @@ h1{
       line-height: 20px;
       margin-bottom: 40px;
 }
+
 .knowledge-content li{
     font-size: 16px;
     color: #001931;
     display: flex;
     gap: 6px;
     margin-bottom: 16px;
-
 }
+
 .knowledge-content li img{
     width: 20px;
     height: 20px;
 }
+
 .knowledge-content ul{
     list-style: none;
-    
 }
-
 
 #challenge{
        width: 1600px;
        height: 506px;
-       padding: 2px 100px 100px 100px;
+       padding: 2px 100px 100px;
        display: flex;
        justify-content: center;
 }
@@ -238,7 +235,7 @@ h1{
     text-align: center;
     padding: 80px 40px;
     border-radius: 12px;
-   }
+}
 
 .challenge-cantainer h2{
     font-size: 40px;
@@ -252,4 +249,46 @@ h1{
 
 .challenge-cantainer button{
     gap: 24px;
+}
+
+.footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px ;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon a{
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+  display: inline;
+  margin-right: 5px;
+}
+
+.footer-logo{
+    width: 139px;
+    height: 60px;
+    text-align: left;
+}
+.footer-social{
+    margin-bottom: 60px;
+}
+
+.copy{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.footer-social span{
+    text-align: right;
+    color: #FFFFFF;
+    line-height: 28px;
 }
